@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>MSI GF66 Laptop - PIYUSH'S SHOP</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style2.css">
+  <link rel="stylesheet" href="./style3.css">
+  <link rel="stylesheet" href="./style4.css">
+  <link rel="stylesheet" href="./style7.css">
+  <link rel="stylesheet" href="./ecommerce.css">
+  <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+    <div class="logo"><a href="homepage.html">PIYUSH'S SHOP</a></div>
+    <div class="menu">
+      <a href="#">
+        <ion-icon name="close" class="close"></ion-icon>
+      </a>
+  
+      <ul>
+        <li><a href="homepage.html" class="under">HOME</a></li>
+        <li><a href="http://localhost/order.html" class="under">PLACE ORDER</a></li>
+        <li><a href="http://localhost/contact.html" class="under">CONTACT</a></li>
+        <li><a href="about.html" class="under">ABOUT</a></li>
+      </ul>
+    </div>
+    <div class="search">
+      <form action="results.html">   
+       <input type="text" name="search" placeholder="Search" id="input">
+       <button class="search-button" name="search" type="submit" id="search-button"><img id="search-icon"src="image/search-icon.png" width:40px;></button>
+      </form>
+      </div>
+    <div class="heading">
+      <ul>
+        <li><a href="homepage.html" class="under">HOME</a></li>
+        <li><a href="http://localhost/order.html" class="under">PLACE ORDER</a></li>
+        <li><a href="http://localhost/contact.html" class="under">CONTACT</a></li>
+        <li><a href="about.html" class="under">ABOUT</a></li>
+      </ul>
+    </div>
+    <div class="heading1">
+      <ion-icon name="menu" class="ham"></ion-icon>
+    </div>
+  </header>
+  <main class="container">
+    <div class="shopping">
+      <img src="image/shopping.svg">
+      <span class="quantity">0</span>
+  </div>
+ 
+    <!-- Left Column -->
+    <div class="left-column2">
+      <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <img src="img/msi_katana.png" style="height:390px; width:auto; top:-10px; left:60px;">
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="img/msi_katana2.png" style="height:290px; width:auto; top:30px; left:120px;">
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="img/msi_katana3.png" style="height:290px; width:auto; top:30px; left:111px;">     
+        </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+    <br>
+    </div>
+    
+    <!-- The dots/circles -->
+    <div class="dot-slider">
+      <img class="img-dot" src="img/msi_katana.png"  onclick="currentSlide(1)"><br>
+      <img class="img-dot" src="img/msi_katana2.png"  onclick="currentSlide(2)">
+      <img class="img-dot" src="img/msi_katana3.png"  onclick="currentSlide(3)">
+    </div>
+   
+   
+    <!-- Right Column -->
+    <div class="right-column">
+   
+      <!-- Product Description -->
+      <div class="product-description">
+        <br><br>
+        <span>Electronics</span>
+        <h1>MSI GF66 Laptop</h1>
+        <p>Thin, Intel 12th Gen. i5-12450H, 40CM FHD 144Hz Gaming Laptop (16GB/512GB NVMe SSD/Windows 11 Home/Nvidia RTX3050Ti 4GB GDDR6/Black/2.25Kg)</p>
+      </div>
+   
+
+   
+      <!-- Product Pricing -->
+      <div class="product-price">
+        <span>₹70499</span>
+        <button class="cart-btn" onclick="addToCard(9,1);">Add To Cart</button>
+      </div>
+    </div>
+
+  <div class="card">
+      <h1>Cart</h1>
+      <ul class="listCard">
+      </ul>
+      <div class="checkOut">
+          <a class="total_text" href="http://localhost/order.html"><div class="total">0</div></a>
+          <div class="closeShopping">Close</div>
+      </div>
+  </div>
+</main>
+<br><br><br>
+<br><br><br>
+<hr class="solid">
+<br><br>
+
+  <div class="related-heading">Related Products</div> 
+
+  <div class="wrapper">
+    <div class="box">
+        <div class="single-box">
+            <a href="product11.html">
+            <div class="img2"  ><img alt="" src="asus laptop.jpg"></div>
+            <h3>ASUS Vivobook Pro 16</h3>
+            <p>Intel Core i9 11th Gen, 16" (40.64 cm) FHD+ 120Hz, Thin & Light Laptop (16GB/512GB SSD/4GB RTX 3050/Win 11/Office 2021/Alexa/Backlit KB/FP Sensor/Blue/1.9 kg)</p>
+            <div class="price">
+                <p>₹89499</p>
+            </div>
+            </a>
+        </div>
+    
+        
+    </div>
+  </div>
+
+  <hr class="solid" color="black">
+
+  <div class="related-heading">Products you may like</div> 
+
+  <div class="wrapper">
+    <div class="box">
+        
+        <div class="single-box">
+            <a href="product12.html" >
+            <div class="img2"><img alt="" src="coffeemaker.jpg"></div>
+            <h3>Morphy Richards Coffee Maker</h3>
+            <p>600-Watt 6-cup Drip Coffee Maker, Gloss Black, Regular (350012)</p><br><br><br><br>
+            <div class="price">
+                <p>₹1549</p>
+            </div>
+            </a>
+        </div>
+        <div class="single-box">
+            <a href="product13.html" >
+            <div class="img2"><img alt="" src="redmi note 11t.jpg"></div>
+            <h3>Redmi Note 11T 5G</h3>
+            <p>Stardust White, 8GB RAM, 128GB ROM | Dimensity 810 5G | 33W Pro Fast Charging | Charger Included</p><br><br>
+            <div class="price">
+                <p>₹18499</p>
+            </div>
+            </a>
+        </div>        
+        <div class="single-box">
+            <a href="product7.html" >
+            <div class="img2"><img alt="" src="samsung tv.jpg"></div>
+            <h3>Samsung Smart TV</h3>
+            <p>Samsung 80 cm (32 Inches) Wondertainment Series HD Ready LED Smart TV UA32T4340BKXXL (Glossy Black)</p>
+            <div class="price">
+                <p>₹12990</p>
+            </div>
+            </a>
+        </div>
+        <div class="single-box">
+          <a href="product14.html" >
+          <div class="img2"><img alt="" src="samsung galaxy.jpg"></div>
+          <h3>Samsung Galaxy S23 Ultra</h3>
+          <p>Green, 12GB RAM, 256GB ROM | Android 13.0 | 5G | 33W Pro Fast Charging | Charger Included</p><br><br>
+          <div class="price">
+              <p>₹1,24,999</p>
+          </div>  
+          </a>     
+        </div>
+        
+        
+        
+        
+    </div>
+  </div>
+
+
+</section>
+
+  <footer>
+    <div class="footer0">
+      <h1>PIYUSH'S SHOP</h1>
+    </div>
+    <div class="footer1 ">
+      Connect with us at<div class="social-media">
+        <a href="#">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+        <a href="#">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+        <a href="#">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+        <a href="#">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="#">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+      </div>
+    </div>
+    <div class="footer3">Copyright © <h4>PIYUSH'S SHOP</h4> 2023-2030</div>
+  </footer>
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  <script src="./ecommerce.js"></script>
+
+</body>
+</html>
+
+  <script  src="./script.js"></script>
+  <script  src="./app1.js"></script>
+<body>

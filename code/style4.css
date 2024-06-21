@@ -1,0 +1,138 @@
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 500px;
+  height: 350px;
+  position: relative;
+  top:40px;
+  left:-140px;
+  margin: auto;
+  background: #f5f5f5e0;
+}
+.slideshow-container1 {
+  width: 500px;
+  height: 350px;
+  position: relative;
+  top:40px;
+  left:-140px;
+  margin: auto;
+  background: #f5f5f54b;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 170px;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  z-index: +1;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text1 {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.dot-slider {
+    position:relative;
+    text-align:center;
+    top:40px;
+    left:-140px;
+}
+
+#testid{
+  min-width: 20px;
+  position:relative;
+  width: 35px; 
+  height: 30px;
+  top:100px;
+  left:-570px;
+  
+  
+}
+
+#id1{
+  min-width: 20px;
+  position:relative;
+  width: 80px; 
+  height: 30px;
+  top:100px;
+  left:-570px;
+  
+  
+}
+
+
+.img-dot {
+    min-width: 20px;
+    border: 0.5px solid #86939E;
+    position:relative;
+    height: 45px !important; 
+    top:100px;
+    left:-570px;
+    
+    
+  }
+  
+  .active, .img-dot:hover {
+    border: 3px solid #47505a;
+    outline: none;
+  }
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot:active, .dot:hover {
+  background-color: #878686b0;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

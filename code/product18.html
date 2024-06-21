@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>SERVO - Engine Oil - PIYUSH'S SHOP</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style2.css">
+  <link rel="stylesheet" href="./style3.css">
+  <link rel="stylesheet" href="./style4.css">
+  <link rel="stylesheet" href="./style7.css">
+  <link rel="stylesheet" href="./ecommerce.css">
+  <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+    <div class="logo"><a href="homepage.html">PIYUSH'S SHOP</a></div>
+    <div class="menu">
+      <a href="#">
+        <ion-icon name="close" class="close"></ion-icon>
+      </a>
+  
+      <ul>
+        <li><a href="homepage.html" class="under">HOME</a></li>
+        <li><a href="http://localhost/order.html" class="under">PLACE ORDER</a></li>
+        <li><a href="http://localhost/contact.html" class="under">CONTACT</a></li>
+        <li><a href="about.html" class="under">ABOUT</a></li>
+      </ul>
+    </div>
+    <div class="search">
+      <form action="results.html">   
+       <input type="text" name="search" placeholder="Search" id="input">
+       <button class="search-button" name="search" type="submit" id="search-button"><img id="search-icon"src="image/search-icon.png" width:40px;></button>
+      </form>
+      </div>
+    <div class="heading">
+      <ul>
+        <li><a href="homepage.html" class="under">HOME</a></li>
+        <li><a href="http://localhost/order.html" class="under">PLACE ORDER</a></li>
+        <li><a href="http://localhost/contact.html" class="under">CONTACT</a></li>
+        <li><a href="about.html" class="under">ABOUT</a></li>
+      </ul>
+    </div>
+    <div class="heading1">
+      <ion-icon name="menu" class="ham"></ion-icon>
+    </div>
+  </header>
+  <main class="container">
+    <div class="shopping">
+      <img src="image/shopping.svg">
+      <span class="quantity">0</span>
+  </div>
+ 
+    <!-- Left Column -->
+    <div class="left-column2">
+      <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <img src="img/servo oil.png" style="height:350px; width:auto; top:0px; left:150px;">
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="img/servo oil1.jpg" style="height:260px; width:auto; top:50px; left:40px;">
+        </div>
+      
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+    <br>
+    </div>
+    
+    <!-- The dots/circles -->
+    <div class="dot-slider">
+      <img class="img-dot" src="img/servo oil.png"  onclick="currentSlide(1)"><br>
+      <img class="img-dot" src="img/servo oil1.jpg"  onclick="currentSlide(2)">
+    </div>
+   
+   
+    <!-- Right Column -->
+    <div class="right-column1">
+   
+      <!-- Product Description -->
+      <div class="product-description">
+        <br><br>
+        <span>Electronics</span>
+        <h1>SERVO - Engine Oil</h1>
+        <p>
+          Viscosity:	20W-40<br>
+          Brand:	SERVO<br>
+          Liquid Volume:	1000 Millilitres<br>
+          Package Information:	Bottle<br>
+          Vehicle Service Type:	Car</p>
+      </div>
+   
+
+   
+      <!-- Product Pricing -->
+      <div class="product-price">
+        <span>₹339</span>
+        <button class="cart-btn" onclick="addToCard(17,1);">Add To Cart</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h1>Cart</h1>
+      <ul class="listCard">
+      </ul>
+      <div class="checkOut">
+          <a class="total_text" href="http://localhost/order.html"><div class="total">0</div></a>
+          <div class="closeShopping">Close</div>
+      </div>
+  </div>
+</main>
+<br><br><br>
+<br><br><br>
+
+  <hr class="solid" color="black">
+
+  <div class="related-heading">Products you may like</div> 
+
+  <div class="wrapper">
+    <div class="box">
+        
+        <div class="single-box">
+            <a href="product4.html" >
+            <div class="img2"><img alt="" src="titan karishma-m.jpg"></div>
+            <h3>Titan Karishma - M</h3>
+            <p>Black Dial, Round Case, Color: Silver, Stainless Steel Band</p><br><br><br><br>
+            <div class="price">
+                <p>₹1999</p>
+            </div>
+            </a>
+        </div>
+        <div class="single-box">
+          <a href="product17.html" >
+          <div class="img2"><img alt="Round_neck" src="shirt.jpg"></div>
+          <h3>Allen Solly Men's Shirt</h3>
+          <p>Fit Type: Regular Fit. <br>Men's Green Shirt</p><br><br><br><br><br>
+          <div class="price">
+              <p>₹749</p>
+          </div>  
+          </a>     
+        </div>  
+        <div class="single-box">
+            <a href="product8.html" >
+            <div class="img2"><img alt="" src="hisense mini fridge.jpg"></div>
+            <h3>Hisense Mini Refrigerator</h3>
+            <p>46 L 2 Star Direct-Cool Single Door Mini Refrigerator (RR46D4SSN, Silver, 2022 Model)</p>
+            <div class="price">
+                <p>₹7990</p>
+            </div>  
+            </a>     
+        </div>
+        <div class="single-box">
+          <a href="product13.html" >
+          <div class="img2"><img alt="" src="redmi note 11t.jpg"></div>
+          <h3>Redmi Note 11T 5G</h3>
+          <p>Stardust White, 8GB RAM, 128GB ROM | Dimensity 810 5G | 33W Pro Fast Charging | Charger Included</p><br>
+          <div class="price">
+              <p>₹18499</p>
+          </div>
+          </a>
+        </div>
+        
+        
+        
+        
+    </div>
+  </div>
+
+
+</section>
+
+  <footer>
+    <div class="footer0">
+      <h1>PIYUSH'S SHOP</h1>
+    </div>
+    <div class="footer1 ">
+      Connect with us at<div class="social-media">
+        <a href="#">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+        <a href="#">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+        <a href="#">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+        <a href="#">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="#">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+      </div>
+    </div>
+    <div class="footer3">Copyright © <h4>PIYUSH'S SHOP</h4> 2023-2030</div>
+  </footer>
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  <script src="./ecommerce.js"></script>
+
+</body>
+</html>
+
+  <script  src="./script.js"></script>
+  <script  src="./app1.js"></script>
+<body>

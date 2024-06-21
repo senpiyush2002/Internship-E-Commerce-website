@@ -1,0 +1,252 @@
+/* CSS */
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 16px;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.product-card img {
+  max-width: 100%;
+}
+
+.product-name {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.product-description {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.search-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	z-index: -1;
+	
+}
+
+.search-container form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.search-container input[type=text] {
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+}
+
+.search-container button[type=submit] {
+	padding: 10px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.search-results-container {
+	margin-top: 20px;
+	position:absolute;
+	left: 20%;
+	top:10%;
+}
+
+.SR{
+	font-weight:6em;
+	color: #ce1111;
+	position:relative;
+	left:-180px;
+   }
+
+.search-results {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	width: 950px;
+	margin: 140px auto;
+	position:relative;
+	left: 100px;
+	top:-100px;
+}
+
+.search-results li {
+	margin-bottom: 10px;
+}
+
+.div-space{
+	position:relative;
+	height: 40px;
+}
+
+.no_result{
+	position: absolute;
+	width:400px;
+	top:200px;
+	left:330px;
+	font-size: 2em;
+}
+
+.footer_results{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
+}
+
+.product-card-img{
+	margin-top: 10px;
+	margin-bottom: auto;
+}
+
+
+.single-box1 a:link {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+.single-box1 a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.single-box1 {
+	width: 300px;
+	background: #fff;
+	margin-right: 20px;
+	padding: 25px;
+	text-align: center;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	position: relative;
+	top:-60px;
+	display: inline-block;
+	z-index: +1;
+}
+.single-box1:last-child {
+	margin-right: 0;
+}
+.single-box1 .img img {
+    height: 100px !important;
+	width: auto !important;
+	margin-bottom: 10px;
+}
+.single-box1 .img2 img {
+	height: 174px;
+	width: auto;
+	margin-bottom: -10px;
+}
+.single-box1 .img3 img {
+    height: 250px;
+	width: auto; 
+	margin-bottom: 10px;
+}
+.single-box1 .img4 img {
+    
+	width: 140px; 
+	margin-bottom: 10px;
+}
+.single-box1 .img5 img {
+	height: 174px;
+	width: auto;
+	margin-bottom: 10px;
+}
+.single-box1 .price {
+	font-weight: 600;
+	font-size: 45px;
+}
+.img {
+	position: relative;
+	top: 10%;
+    left: 20% !important;
+    height:150px !important;
+    width:150px !important;
+}
+.img2 {
+	position: relative;
+	top: 1%;
+    left: -1% !important;
+	margin-top: -10px;
+}
+.img3 {
+	position: relative;
+	top: -1%;
+    left: -1% !important;
+    height:250px !important;
+    width:auto !important;
+}
+.img4 {
+	position: relative;
+	top: -1%;
+    left: -1% !important;
+    height:auto !important;
+    width:100px !important;
+}
+.img5 {
+	position: relative;
+	top: 1%;
+    left: -1% !important;
+    height:0auto !important;
+    width:100px !important;
+}
+.single-box1 .img:hover {
+    transform: scale(1.2);
+    transition-duration: 0.8s;
+    border-radius: 12px;
+  }
+.single-box1 .img2:hover {
+    transform: scale(1.1);
+    transition-duration: 0.8s;
+    border-radius: 2px;
+  }
+.single-box1 .img3:hover {
+    transform: scale(1.1);
+    transition-duration: 0.8s;
+    border-radius: 2px;
+  }
+.single-box1 .img4:hover {
+    transform: scale(1.1);
+    transition-duration: 0.8s;
+    border-radius: 2px;
+  }
+.single-box1 .img5:hover {
+    transform: scale(1.1);
+    transition-duration: 0.8s;
+    border-radius: 2px;
+  }
+.single-box1 h3 {
+	margin-top: 25%;
+	margin-bottom: 15px;
+}
+.single-box1 p {
+	line-height: 1.9;
+}
+
+@media(max-width:991px) {
+	.box {
+		width: 100%;
+	}
+}
+@media (max-width:767px) {
+	.box {
+		width: 100%;
+		flex-direction: column;
+	}
+	.single-box1 {
+		margin-right: 0;
+		width: 100%;
+		margin-bottom: 110px;
+	}
+}
